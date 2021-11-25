@@ -1,15 +1,15 @@
 import os
 import pandas as pd
-from lxml import html
-import requests
+# from lxml import html
+# import requests
 
 from typing import List
 
 
 class TimeTracker:
     def __init__(self, text: List[str] = [''], time: List[str] = ['']) -> None:
-        self.text = text
-        self.time = time
+        self.text = text #list of texts
+        self.time = time #list of times
         
         self.parsed_time = []
 
